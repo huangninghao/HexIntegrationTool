@@ -7,6 +7,7 @@ import com.hx.base.mInterface.provider.IReadProvider;
 import com.hx.base.mInterface.provider.IUpgradeProvider;
 import com.hx.base.mInterface.router.ModuleManager;
 import com.hx.base.mInterface.router.ServiceManager;
+;
 
 
 /**
@@ -16,6 +17,7 @@ import com.hx.base.mInterface.router.ServiceManager;
  */
 public class ReadService {
     private static boolean hasModule2() {
+        int i=0;
         return ModuleManager.getInstance().hasModule(IReadProvider.READ_MODULE_MAIN_SERVICE);
     }
 
