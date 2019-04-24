@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">setModule</string>
+    <string name="set_home_title">Set</string>
+    <!--功能选择页面-->
+    <string name="set_function_title">Function selection</string>
+    <string name="set_function_rate">Rate setting</string>
+    <string name="set_function_settlement">Settlement object setting</string>
+    <string name="set_function_display">Display object setting</string>
+    <string name="set_parameter_list">Parameter list</string>
+    <string name="set_comm_method">Comm method</string>
+    <string name="set_billingTime">Billing Time</string>
+    <string name="set_function_gprs">GPRS setting</string>
+    <string name="set_function_time_set">Time Setting</string>
+    <string name="set_function_relay_status">Relay Status</string>
+    <string name="set_function_token">Token</string>
+    <!--费率设置-->
+    <string name="set_rote_addtime">Add time</string>
+    <string name="set_rote_read">Read</string>
+    <string name="set_rote_next">Next</string>
+    <string name="set_rote_set">Set</string>
+
+    <!--时间设置-->
+    <string name="read_time_current_time">Current time:</string>
+    <!--token设置-->
+    <string name="read_token">Token:</string>
+
+    <string name="confirm">Confirm</string>
+    <!--通用-->
+    <string name="set_write">Write</string>
+    <string name="set_rote_confirm">Confirm</string>
+    <string name="set_rote_parameter_list">Parameter list</string>
+    <string name="set_rote_effective">Rate effective time</string>
+    <!--Gprs-->
+    <string name="set_ip">IP</string>
+    <string name="set_port">Port</string>
+    <string name="set_apn">APN</string>
+    <string name="set_pdp_username">PDP Username</string>
+    <string name="set_pdp_password">PDP Password</string>
+    <string name="port_err">Port beyond the limits</string>
+    <string name="ip_err">Ip beyond the limits</string>
+    <string name="enter_error">Enter error</string>
+    <!--继电器-->
+    <string name="read_relay_open">Disconnect</string>
+    <string name="read_relay_close">Connect</string>
+
+
+    <string name="set_rote_confirmation_time">Confirmation time</string>
+    <string name="min">min</string>
+
+    <string name="time_picker">Please select time</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">H</string>
+    <string name="minute">M</string>
+    <string name="second">S</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure">sure</string>
+    <string name="fee">fee</string>
+    <string name="set_success">Success</string>
+    <string name="failed">failed</string>
+    <string name="suc">success</string>
+    <string name="nodelete">Can not delete time</string>
+    <string name="noadd">Can not add time</string>
+    <!--显示设置-->
+    <string name="set_display_rotate">Rotate display</string>
+    <string name="set_display_button_1">Button display 1</string>
+    <string name="set_display_button_2">Button display 2</string>
+    <string name="set_display_interval">Display time interval</string>
+    <string name="set_display_current_interval">Current interval</string>
+    <string name="set_display_new_interval">Current interval</string>
+</resources>

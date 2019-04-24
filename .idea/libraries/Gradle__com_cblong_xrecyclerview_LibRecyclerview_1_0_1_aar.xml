@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cblong.xrecyclerview:LibRecyclerview:1.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7791f33ce11f64f2046aed8a5fe6f82c/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7791f33ce11f64f2046aed8a5fe6f82c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7791f33ce11f64f2046aed8a5fe6f82c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cblong.xrecyclerview/LibRecyclerview/1.0.1/b79f86e76789e3ec8c977ef6809868ca3c625268/LibRecyclerview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

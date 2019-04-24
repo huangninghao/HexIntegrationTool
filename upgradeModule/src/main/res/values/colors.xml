@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorA0">#696969</color>
+    <color name="upHomeMain">#00A0EA</color>
+    <color name="upMainBackground">#E0E0E0</color>
+    <color name="upWrite">#ffffff</color>
+    <color name="upView">#999999</color>
+    <color name="clr_gray">#80030303</color>
+    <color name="up_main_color">#00A0EA</color>
+    <color name="color_up_line">#E0E0E0</color>
+    <color name="color_up_999999">#999999</color>
+</resources>

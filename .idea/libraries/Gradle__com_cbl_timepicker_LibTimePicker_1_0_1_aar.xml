@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cbl.timepicker:LibTimePicker:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f013e6283f1ab61d27089aabd4e1cbe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f013e6283f1ab61d27089aabd4e1cbe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cbl.timepicker/LibTimePicker/1.0.1/de0fbb134c89c1dbd46bf971c50eaf1566f2f381/LibTimePicker-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

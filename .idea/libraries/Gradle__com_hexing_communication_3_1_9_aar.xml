@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hexing:communication:3.1.9@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a82e7a8ea606ee18b966400a528706f/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a82e7a8ea606ee18b966400a528706f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a82e7a8ea606ee18b966400a528706f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hexing/communication/3.1.9/fac572568b57f9c6bbf9a8a0c413ab7d1f15359b/communication-3.1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

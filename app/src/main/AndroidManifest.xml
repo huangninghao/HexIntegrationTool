@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hx.hexingtool">
+
+    <application
+        android:allowBackup="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name="com.hx.home.HomeApplication"
+        tools:replace="android:name"
+        android:theme="@style/AppTheme" >
+    </application>
+
+</manifest>

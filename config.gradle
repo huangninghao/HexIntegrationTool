@@ -1,0 +1,42 @@
+ext {
+    android = [
+            compileSdkVersion       : 27,
+            buildToolsVersion       : "27.1.1",
+            minSdkVersion           : 19,
+            targetSdkVersion        : 26,
+            androidSupportSdkVersion: "27.1.1"
+    ]
+
+    version = [
+            code: 11,
+            name: "1.4.3"
+    ]
+
+    dependencies = [
+            arouterapi     : 'com.alibaba:arouter-api:1.4.1',
+            aroutercompiler: 'com.alibaba:arouter-compiler:1.2.2',
+            supportdesign  : 'com.android.support:design:27.1.1',
+//            recyclerviewv7 : 'com.android.support:recyclerview-v7:26.1.0',
+            supportv4      : 'com.android.support:support-v4:27.1.1',
+            appcompatv7    : 'com.android.support:appcompat-v7:27.1.1',
+            //分包
+            multidex       : 'com.android.support:multidex:1.0.2',
+            junit          : 'junit:junit:4.12',
+            constraint     : 'com.android.support.constraint:constraint-layout:1.1.0',
+            libHexDlms     : 'com.hexing:communication:3.1.9',
+            fastJson       : 'com.alibaba:fastjson:1.1.70.android',
+            libHexBase     : 'com.hexing.libhexbase:LibHexBase:1.8.5',
+            LibRecyclerview: 'com.cblong.xrecyclerview:LibRecyclerview:1.0.1',
+            LibDialog      : 'com.cbl.dialog:LibDialog:1.0.0',
+            LibTimePicker  : 'com.cbl.timepicker:LibTimePicker:1.0.1',
+            eventBus       : 'org.greenrobot:eventbus:3.0.0'
+    ]
+    //home是否是作为模块，true的时候是，false的时候可以独立运行，不想改了ORZ
+    isMouleDebugHome = true
+    //固件升级是否是作为模块，true的时候是，false的时候可以独立运行
+    isUpgradeDebug = true
+    //固件设置是否作为模块 true的时候是，false的时候可以独立运行
+    isSetDebug = true
+
+    isReadDebug = true
+}

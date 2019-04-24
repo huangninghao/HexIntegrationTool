@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_read_line"
+    android:orientation="vertical">
+
+    <com.hexing.libhexbase.view.HeaderLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/read_main_color" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/headerLayout"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/read_instantaneous_confirmation" />
+
+    <com.cblong.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvRead"
+        android:layout_below="@+id/tvInfo" />
+
+    <TextView
+        android:id="@+id/tvRead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_blue"
+        android:gravity="center"
+        android:text="@string/read_instantaneous_read"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+</RelativeLayout>

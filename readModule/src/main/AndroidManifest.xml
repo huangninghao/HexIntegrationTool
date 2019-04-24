@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hx.read">
+
+    <application>
+        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.FunctionActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.InstantaneousActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.FreezeActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.TimeSetActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.FunctionActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.InstantaneousActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.FreezeActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.TimeSetActivity" />
+        <activity android:name=".view.ethiopia.read.HXE12_DL.FunctionActivity" />
+        <activity android:name=".view.ethiopia.read.HXE12_DL.InstantaneousActivity" />
+        <activity android:name=".view.ethiopia.read.HXE12_DL.FreezeActivity" />
+        <activity android:name=".view.ethiopia.read.HXE12_DL.TimeSetActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.FreezeMonthActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.FreezeMonthActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.RelayActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.PrepaidPacketActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.RelayActivity" />
+        <activity android:name=".view.senegal.read.HXE310_KP.PrepaidPacketActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.DayFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.FeaturesActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.UnderVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.OverVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.BypassThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.OverloadThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.LowPowerThesholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.CurrentUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.VoltageUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.CTPTActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.GPRSActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.TimeSetActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.MonthFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.InstantaneousActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.RelayActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.DayFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.FeaturesActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.TimeSetActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.MonthFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.InstantaneousActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.RelayActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.DayFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.FeaturesActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.TimeSetActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.MonthFreezeActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.InstantaneousActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.RelayActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.MeterParameterActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.PLCActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE110.GPRSModularActivity" />
+        <activity android:name=".view.senegal.read.HXE115_KP.TokenActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.DayFreezeActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.MonthFreezeActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.FeaturesActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.InstantaneousActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.TimeSetActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.TokenActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.DayFreezeActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.MonthFreezeActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.FeaturesActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.InstantaneousActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.TimeSetActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.TokenActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.EventRecordActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.DemandActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.EnergyActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.PrepaymentActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.DisplayRotateActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.ParameterSelectActivity" />
+        <activity android:name=".view.bangladesh.read.HXE310_KP.RelayActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.EventRecordActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.DemandActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.EnergyActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.PrepaymentActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.RelayActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.DisplayRotateActivity" />
+        <activity android:name=".view.bangladesh.read.HXE110_KP.SettingActivity"></activity>
+
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.UnderVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.OverVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.BypassThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.OverloadThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.LowPowerThesholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.CurrentUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.VoltageUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.CTPTActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.GPRSActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.UnderVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.OverVoltageActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.BypassThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.OverloadThresholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.LowPowerThesholdActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.CurrentUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.VoltageUnbalanceActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.GPRSActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.PLCActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.PLCActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.GPRSModularActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.GPRSModularActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXE310.MeterParameterActivity" />
+        <activity android:name=".view.kyrgyzstan.northElectric.HXF300.MeterParameterActivity" />
+
+        <!--南非-->
+        <activity android:name=".view.southAfrica.read.HXE130.FeaturesActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.FeaturesActivity" />
+
+        <!--伊拉克-->
+        <activity android:name=".view.iraq.read.ME152.FeaturesActivity" />
+        <activity android:name=".view.iraq.read.ME152.InstantaneousActivity" />
+        <activity android:name=".view.iraq.read.ME152.EnergyActivity"/>
+        <activity android:name=".view.iraq.read.MT153.EnergyActivity"/>
+        <activity android:name=".view.iraq.read.MT153.FeaturesActivity" />
+        <activity android:name=".view.iraq.read.MT153.InstantaneousActivity" />
+
+        <!--肯尼亚-->
+        <activity android:name=".view.kenya.read.HXT300.FeaturesActivity" />
+        <activity android:name=".view.kenya.read.HXT300.DemandActivity" />
+        <activity android:name=".view.kenya.read.HXT300.InstantaneousActivity" />
+        <activity android:name=".view.kenya.read.HXT300.DayFreezeActivity" />
+        <activity android:name=".view.kenya.read.HXT300.EnergyActivity" />
+        <activity android:name=".view.kenya.read.HXT300.MonthFreezeActivity" />
+        <activity android:name=".view.kenya.read.HXT300.TimeSetActivity" />
+        <activity android:name=".view.kenya.read.HXT300.GPSActivity" />
+
+        <!--南非-->
+        <activity android:name=".view.southAfrica.read.HXE130.InstantaneousActivity" />
+        <activity android:name=".view.southAfrica.read.HXE130.FreezeActivity" />
+        <activity android:name=".view.southAfrica.read.HXE130.FreezeMonthActivity" />
+        <activity android:name=".view.southAfrica.read.HXE130.TimeSetActivity" />
+        <activity android:name=".view.southAfrica.read.HXE130.RelayActivity" />
+        <activity android:name=".view.southAfrica.read.HXE130.PrepaidPacketActivity" />
+
+        <activity android:name=".view.southAfrica.read.HXE330.InstantaneousActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.FreezeActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.FreezeMonthActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.TimeSetActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.RelayActivity" />
+        <activity android:name=".view.southAfrica.read.HXE330.PrepaidPacketActivity" />
+        <!--几内亚-->
+        <activity android:name=".view.guinea.read.HXE130.FunctionActivity" />
+        <activity android:name=".view.guinea.read.HXE130.InstantaneousActivity" />
+        <activity android:name=".view.guinea.read.HXE130.PrepaidPacketActivity" />
+        <activity android:name=".view.guinea.read.HXE130.RelayActivity" />
+        <activity android:name=".view.guinea.read.HXE130.TimeSetActivity" />
+        <activity android:name=".view.guinea.read.HXE330.FunctionActivity" />
+        <activity android:name=".view.guinea.read.HXE330.InstantaneousActivity" />
+        <activity android:name=".view.guinea.read.HXE330.PrepaidPacketActivity" />
+        <activity android:name=".view.guinea.read.HXE330.RelayActivity" />
+        <activity android:name=".view.guinea.read.HXE330.TimeSetActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.FunctionActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.InstantaneousActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.PrepaidPacketActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.RelayActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.TimeSetActivity" />
+        <activity android:name=".view.guinea.read.HXE330.FreezeMonthActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.FreezeMonthActivity" />
+        <activity android:name=".view.guinea.read.HXE130.FreezeMonthActivity" />
+        <activity android:name=".view.guinea.read.HXE130.FreezeActivity" />
+        <activity android:name=".view.guinea.read.HXE100DIP.FreezeActivity" />
+        <activity android:name=".view.guinea.read.HXE330.FreezeActivity" />
+
+    </application>
+
+</manifest>

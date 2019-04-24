@@ -1,0 +1,53 @@
+if (rootProject.ext.isUpgradeDebug) {
+    apply plugin: 'com.android.library'
+} else {
+    apply plugin: 'com.android.application'
+}
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.version.code
+        versionName rootProject.ext.version.name
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation rootProject.ext.dependencies["appcompatv7"]
+    testImplementation rootProject.ext.dependencies["junit"]
+    implementation project(':base')
+    implementation rootProject.ext.dependencies["arouterapi"]
+    annotationProcessor rootProject.ext.dependencies["aroutercompiler"]
+    implementation rootProject.ext.dependencies["libHexBase"]
+    implementation rootProject.ext.dependencies["eventBus"]
+    implementation rootProject.ext.dependencies["libHexDlms"]
+    implementation rootProject.ext.dependencies["LibRecyclerview"]
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+
+
+}

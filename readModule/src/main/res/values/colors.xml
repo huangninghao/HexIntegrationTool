@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="read_main_color">#00A0EA</color>
+    <color name="color_read_line">#E0E0E0</color>
+    <color name="color_read_999999">#999999</color>
+    <color name="color_common_text">#979797</color>
+    <color name="color_relay_close">#db6929</color>
+    <color name="color_relay_open">#7fb01d</color>
+</resources>

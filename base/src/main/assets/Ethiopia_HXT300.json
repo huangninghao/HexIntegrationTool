@@ -1,0 +1,26 @@
+[
+  {
+    "featuresNo": "1",
+    "nameEn": "Instantaneous",
+    "nameZh": "瞬时量",
+    "nameFr": "Instantané"
+  },
+  {
+    "featuresNo": "2",
+    "nameEn": "DayFreeze",
+    "nameZh": "日冻结",
+    "nameFr": "Gel de jour"
+  },
+  {
+    "featuresNo": "3",
+    "nameEn": "MonthFreeze",
+    "nameZh": "月冻结",
+    "nameFr": "Mois gelé"
+  },
+  {
+    "featuresNo": "4",
+    "nameEn": "Time setting",
+    "nameZh": "时间设置",
+    "nameFr": "Réglage de l'heure"
+  }
+]

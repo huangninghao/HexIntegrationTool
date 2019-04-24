@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Base</string>
+
+    <string name="base_method_optical">Optical</string>
+    <string name="base_method_rf">RF</string>
+    <string name="base_method_zigbee">Zigbee</string>
+    <string name="base_method_unknown">Unknown</string>
+
+    <string name="base_protocol_dlms">Dlms</string>
+    <string name="base_protocol_21">21</string>
+    <string name="base_protocol_645">645</string>
+    <string name="base_protocol_unknown">Unknown</string>
+
+    <string name="base_MCU_TDK">TDK</string>
+    <string name="base_MCU_RN8213">RN8213</string>
+</resources>

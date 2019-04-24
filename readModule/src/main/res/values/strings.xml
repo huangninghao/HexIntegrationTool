@@ -1,0 +1,213 @@
+<resources>
+    <string name="read_home_title">Read</string>
+    <!--功能选择页面-->
+    <string name="read_comm_method">Comm Method</string>
+    <string name="read_function_title">Function selection</string>
+    <string name="read_function_instantaneous_amount">Instantaneous Quantity</string>
+    <string name="read_function_daily">Daily Freeze</string>
+    <string name="read_function_monthly">Monthly Freeze</string>
+    <string name="read_function_time_set">Time Setting</string>
+    <string name="setItem">Setting</string>
+    <string name="read_function_relay_status">Relay Status</string>
+    <string name="read_function_prepaid_packet">Prepaid Packet</string>
+    <string name="read_function_overvoltage">Overvoltage Threshold</string>
+    <string name="read_function_undervoltage">Undervoltage Threshold</string>
+    <string name="read_function_bypass">Bypass Threshold</string>
+    <string name="read_function_overload">Overload Threshold</string>
+    <string name="eventRecord">Event record</string>
+    <string name="demand">Demand</string>
+    <string name="prepayment">Prepayment</string>
+    <string name="read_function_lowpower">Low Power Threshold</string>
+    <string name="read_function_voltage_unbalance">Voltage Unbalance Threshold</string>
+    <string name="read_function_current_unbalance_threshold">Current Unbalance Threshold</string>
+    <string name="read_function_voltage_unbalance_threshold">Voltage Unbalance Threshold</string>
+    <string name="read_function_current">PLC</string>
+    <string name="read_function_plc">PLC</string>
+    <string name="read_function_ctpt">CTPT</string>
+    <string name="read_function_gprs">GPRS</string>
+    <string name="read_function_gprs_modular">GPRS Modular</string>
+    <string name="read_function_token">Token</string>
+    <string name="read_function_display_rotate">Rotate display</string>
+    <string name="meter_parameter">Meter Parameter</string>
+    <string name="read_function_event_record">Event record</string>
+    <string name="read_function_demand">Demand</string>
+    <string name="read_function_energy">Energy</string>
+    <string name="read_function_prepayment">Prepayment</string>
+    <string name="read_function_gps">GPS</string>
+    <!--欠压阀值-->
+    <string name="read_under_voltage_func">Threshold for Under Voltage</string>
+    <string name="read_under_voltage_time_func">Time Threshold for Under Voltage</string>
+    <!--过压阀值-->
+    <string name="read_over_voltage_func">Threshold for Over Voltage</string>
+    <string name="read_over_voltage_time_func">Time Threshold for Over Voltage</string>
+    <!--旁路阀值-->
+    <string name="read_bypass_func">Threshold for bypass</string>
+    <string name="read_bypass_time_func">Time Threshold for bypass</string>
+    <!--过载阀值-->
+    <string name="threshold_active">Threshold active</string>
+    <string name="threshold_normal">Threshold normal</string>
+    <string name="threshold_emergency">Threshold emergency</string>
+    <!--过载阀值-->
+    <string name="read_lower_power_func">Threshold for low power factor</string>
+    <string name="read_lower_power_time_func">Time Threshold for low power factor</string>
+    <!--电流不平衡阀值-->
+    <string name="read_current_unbalance_func">Threshold for current unbalance</string>
+    <string name="read_current_unbalance_time_func">Time Threshold for current unbalance</string>
+    <!--电压不平衡阀值-->
+    <string name="read_voltage_unbalance_func">Threshold for voltage unbalance</string>
+    <string name="read_voltage_unbalance_time_func">Time Threshold for voltage unbalance</string>
+    <!--ctpt-->
+    <string name="read_ct_func">CT</string>
+    <string name="read_pt_func">PT</string>
+    <string name="read_ctpt_ip">IP</string>
+    <string name="read_ctpt_port">Port</string>
+    <string name="read_ctpt_backup_ip">Backup Ip</string>
+    <string name="read_ctpt_backup_port">Backup port</string>
+    <string name="read_ctpt_apn">APN</string>
+    <!--瞬时量-->
+    <string name="read_instantaneous_confirmation">Confirmation Information</string>
+    <string name="read_instantaneous_read">Start Read</string>
+    <string name="read_instantaneous_export">Export</string>
+    <string name="read_instantaneous_frequency">Frequency</string>
+    <string name="read_instantaneous_active_plus">Active power (+)</string>
+    <string name="read_instantaneous_active_reverse">Active power (-)</string>
+    <string name="read_instantaneous_reactive_plus">Reactive power (+)</string>
+    <string name="read_instantaneous_reactive_reverse">Reactive power (-)</string>
+    <string name="read_instantaneous_apparent_power">Apparent power</string>
+    <string name="read_instantaneous_current">Current</string>
+    <string name="read_instantaneous_power_factor">Power factor</string>
+    <string name="read_instantaneous_voltage">Voltage</string>
+    <string name="file_success">Succeed, file Directory HexTools/record</string>
+    <!--冻结-->
+    <string name="read_freeze_type">Freeze type:</string>
+    <string name="read_select_time">Select time:</string>]
+    <string name="read_freeze_time">Date\&amp;\&amp;Time</string>
+    <string name="read_freeze_active_pluse">Active energy (+)</string>
+    <string name="read_freeze_active_reserve">Active energy (-)</string>
+    <string name="read_freeze_available_credit">Available credit</string>
+    <string name="read_freeze_select_time">Please select time</string>
+    <!--预付费信息包-->
+    <string name="read_prepaid_available_credit">Available credit</string>
+    <string name="read_prepaid_out_state_of_relay">Output state of relay</string>
+    <string name="read_prepaid_relay_operate_reson">Relay operate reson</string>
+    <string name="read_prepaid_relay_model">Relay Model</string>
+    <string name="read_prepaid_meter_work_mode">Meter Work Mode</string>
+    <string name="read_prepaid_meter_status">Meter Status</string>
+    <string name="read_prepaid_active_power_plus">Active power (+)</string>
+
+    <!--时间设置-->
+    <string name="read_time_current_time">Current time:</string>
+    <!--时间设置-->
+    <string name="read_token">Token:</string>
+    <!--通用-->
+    <string name="read_read">Read</string>
+    <string name="read_next">Next</string>
+    <string name="read_write">Write</string>
+    <string name="read_set">Set</string>
+    <string name="read_confirm">Confirm</string>
+    <string name="read_query">Query</string>
+    <string name="read_parameter_list">Parameter list</string>
+    <string name="Meterhite">Prompt</string>
+    <string name="MeterAddData">Loading Date...</string>
+    <string name="loading">Loading</string>
+    <string name="export_success">Export success</string>
+    <string name="export_failure">Export failure</string>
+    <string name="emptyData">Empty data</string>
+    <!--继电器-->
+    <string name="read_time_current_status">Current status:</string>
+    <string name="read_relay_open">Disconnect</string>
+    <string name="read_relay_close">Connect</string>
+    <!--预付费信息包-->
+    <string name="read_relay_reson_01">Insufficient balance, already overdrawn</string>
+    <string name="read_relay_reson_02">Insufficient balance, no overdraft</string>
+    <string name="read_relay_reson_03">Over load</string>
+    <string name="read_relay_reson_04">STS test power failure</string>
+    <string name="read_relay_reson_05">Open cover</string>
+    <string name="read_relay_reson_06">Opening button cover</string>
+    <string name="read_relay_reson_07">Remote pull</string>
+    <string name="read_relay_reson_08">Overcurrent</string>
+    <string name="read_relay_reson_09">Overpressure</string>
+    <string name="read_relay_reson_0A">Not recharged for long time</string>
+    <string name="read_relay_reson_0B">Factory pull mode</string>
+    <string name="read_relay_reson_0C">Undervoltage</string>
+    <string name="read_relay_reson_0D">Reverse</string>
+    <string name="read_relay_reson_0E">Missing zero line</string>
+    <string name="read_relay_reson_0F">Expiration date expired</string>
+    <string name="read_relay_reson_00">Normal use of electricity</string>
+    <string name="read_relay_reson_10">STS test closing</string>
+    <string name="read_relay_reson_20">Protection and closing</string>
+    <string name="read_relay_reason_11">Open Meter box</string>
+    <string name="read_relay_reason_9B">Phase closure</string>
+
+    <string name="read_relay_model_00">Power protection mode</string>
+    <string name="read_relay_model_04">Normal mode</string>
+
+    <string name="read_meter_work_model_0">Normal</string>
+    <string name="read_meter_work_model_00">Ordinary meter</string>
+    <string name="read_meter_work_model_01">Prepaid meter</string>
+
+    <string name="read_meter_status_0001">Open cover</string>
+    <string name="read_meter_status_0002">Opening cover</string>
+    <string name="read_meter_status_0004">Phase A overpressure</string>
+    <string name="read_meter_status_0008">Phase B overpressure</string>
+
+    <string name="read_meter_status_0000">Normal</string>
+    <string name="read_meter_status_0010">Phase C overpressure</string>
+    <string name="read_meter_status_0020">A phase undervoltage</string>
+    <string name="read_meter_status_0040">B phase undervoltage</string>
+    <string name="read_meter_status_0080">C phase undervoltage</string>
+
+    <string name="read_meter_status_0100">A opposite direction</string>
+    <string name="read_meter_status_0200">B opposite direction</string>
+    <string name="read_meter_status_0400">C opposite direction</string>
+    <string name="read_meter_status_0800">Bypass</string>
+
+    <string name="read_meter_status_1000">Three-phase unbalance</string>
+    <string name="read_meter_status_2000">Overload</string>
+    <string name="read_meter_status_4000">Strong magnetic field</string>
+    <string name="read_meter_status_8000">Overcurrent</string>
+
+
+    <string name="voltage">voltage</string>
+    <string name="current">current</string>
+    <string name="ActivePower">ActivePower</string>
+    <string name="energy">energy+</string>
+
+    <string name="read_failed">read failure</string>
+    <string name="error_format">Wrong format</string>
+    <string name="time_picker">Please select time</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">H</string>
+    <string name="minute">M</string>
+    <string name="second">S</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure">Sure</string>
+    <string name="confirm">Confirm</string>
+    <string name="value">Value</string>
+    <string name="describe">Describe</string>
+
+    <string name="meter_normal">Normal</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+
+    <string name="export_failed">Export failed</string>
+    <string name="plc_tips">Firmware identifier of PLC:</string>
+    <string name="plc_title">PLC</string>
+    <string name="gprs_modular_title">GPRS Modular:</string>
+    <string name="gprs_modular">GPRS Modular</string>
+    <string name="invalid_data">Invalid data</string>
+    <!--设置-->
+    <string name="read_set_overdraft_amount">Overdraft amount</string>
+    <string name="read_set_alarm_amount">Alarm amount</string>
+    <string name="read_set_tk">TK</string>
+    <string name="event_type">Event type</string>
+    
+    <string name="please_input_meter">Please input meter</string>
+    <string name="meter_hint">meter number</string>
+    
+    <!--gps经纬度-->
+    <string name="gps_latitude">latitude</string>
+    <string name="gps_longitude">longitude</string>
+</resources>

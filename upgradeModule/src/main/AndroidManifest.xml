@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hx.upgrade">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".view.USelectMeterActivity" />
+        <activity android:name=".view.UpgradeActivity" />
+        <activity android:name=".view.UMainActivity" />
+        <activity android:name=".view.USelectFileActivity" />
+    </application>
+</manifest>

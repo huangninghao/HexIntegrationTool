@@ -1,0 +1,6 @@
+include ':app'
+include ':readModule'
+include ':base'
+include ':upgradeModule'
+include ':setModule'
+include ':home'

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hexing.libhexbase:LibHexBase:1.8.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a50b5ce6b6c1bf2aeb541965469296a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a50b5ce6b6c1bf2aeb541965469296a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hexing.libhexbase/LibHexBase/1.8.5/ee2a0d312035804dc03e69eb080ae4b4566e2f81/LibHexBase-1.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

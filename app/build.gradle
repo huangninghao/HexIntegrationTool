@@ -1,0 +1,111 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    defaultConfig {
+        applicationId "com.hx.hexingtool"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.version.code
+        versionName rootProject.ext.version.name
+        //multiDexEnabled true
+       //abortOnError true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled false
+            ext.enableCrashlytics = false //禁用插件 Crashlytics报告设置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    dexOptions{
+        javaMaxHeapSize "4g"
+        preDexLibraries  false
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {//这里是all，下面是根据自己的情况来定制
+            def date = new Date()
+            def formattedDate = date.format('yyyyMMddHHmm')
+            def fileName
+            if (variant.buildType.name == "release") {
+                // 输出apk名称为app_100_release.apk
+                fileName = "HexTools_V${defaultConfig.versionName}.apk"
+            } else if (variant.buildType.name == "debug") {
+                // 输出apk名称为app_100_debug.apk
+                fileName = "HexTools_debug_V${defaultConfig.versionName}_${formattedDate}.apk"
+            } else {
+                // 输出apk名称为app_v1.0.0_2017-12-11_101_beta.apk
+                fileName = "HexTools_Beta_V${defaultConfig.versionName}.apk"
+            }
+            outputFileName = fileName
+        }
+    }
+
+//    productFlavors {
+//        readApp {
+//            applicationId "com.hexing.read"
+//            resValue("string", "read_app_name", "Hex-Read")
+//            manifestPlaceholders = [app_icon: "mipmap/ic_launcher"]
+//        }
+//        upgradeApp {
+//            applicationId "com.hexing.upgrade"
+//            resValue("string", "upgrade_app_name", "Hex-Upgrade")
+//            manifestPlaceholders = [app_icon: "mipmap/ic_launcher"]
+//        }
+//        settingApp {
+//            applicationId "com.hexing.set"
+//            resValue("string", "set_app_name", "Hex-Setting")
+//            manifestPlaceholders = [app_icon: "mipmap/ic_launcher"]
+//        }
+//    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.dependencies["appcompatv7"]
+    implementation rootProject.ext.dependencies["constraint"]
+    testImplementation rootProject.ext.dependencies["junit"]
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation rootProject.ext.dependencies["arouterapi"]
+    annotationProcessor rootProject.ext.dependencies["aroutercompiler"]
+    if (rootProject.ext.isMouleDebugHome) {
+        implementation project(':home')
+    }
+    if (rootProject.ext.isUpgradeDebug) {
+        implementation project(':upgradeModule')
+    }
+    if (rootProject.ext.isSetDebug) {
+        implementation project(':setModule')
+    }
+
+    if (rootProject.ext.isReadDebug) {
+        implementation project(':readModule')
+    }
+}

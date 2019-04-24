@@ -1,0 +1,5 @@
+<resources>
+    <string name="home_app_name">Hex-Tool</string>
+    <string name="home_main">Home</string>
+    <string name="home_sign_out">Sign out</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_main_color">#00A0EA</color>
+    <color name="colorPrimary">#00A0EA</color>
+    <color name="colorPrimaryDark">#00A0EA</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_2b50a7">#2B50A7</color>
+    <color name="color_line">#E0E0E0</color>
+    <color name="color_cccccc">#CCCCCC</color>
+    <color name="color_5f5f5f">#5F5F5F</color>
+    <color name="color_999999">#999999</color>
+    <color name="roam_color_alpha">#500bd3a6</color>
+    <color name="color_ic">#ff0000</color>
+    <color name="color_e0e0e0">#E0E0E0</color>
+    <color name="color_background">#E0E0E0</color>
+    <color name="color_009de2">#34B2E8</color>
+    <color name="color_green">#5D9B4B</color>
+    <color name="color_a0a0a0">#A0A0A0</color>
+
+    <color name="text_grey">#888888</color>
+    <color name="pressed_color">#E5E6E7</color>
+    <color name="action_sheet_gray">#8F8F8F</color>
+
+    <color name="color_white_80">#80FFFFFF</color>
+
+    <color name="color_7c858a">#7C858A</color>
+    <color name="color_99a3a9">#99A3A9</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_d3d6d8">#D3D6D8</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">upgrade</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrade_type">Upgrade Type:</string>
+    <string name="upgrade_local">Local</string>
+    <string name="upgrade_distance">Distance</string>
+    <string name="communication_agreement">Comm protocol:</string>
+    <string name="communication_type">Comm method:</string>
+    <string name="upgrade_meter_MCU">MCU:</string>
+    <string name="upgrade_next">Next</string>
+    <string name="upgrade_meter_number">Please enter meter number:</string>
+    <string name="upgrade_sure">Sure</string>
+    <string name="upgrade_file">Upgrade file</string>
+    <string name="upgrade_select_file">Select File</string>
+    <string name="upgrade_select_all">All</string>
+    <string name="failed">Failed</string>
+    <string name="file_err">File parsing failed</string>
+    <string name="no_file">No files found</string>
+    <string name="succeed">Upgrade succeed</string>
+    <string name="tips_select_file">Please select file</string>
+    <string name="upgrade_success">Upgrade success</string>
+    <string name="upgrade_wait">Please wait a moment</string>
+    <string name="default_config">Please select default configurations(Local,DLMS,Optical),The rest of configurations are undeveloped</string>
+    <string name="upgrade_preparation">Upgrade preparation</string>
+    <string name="FIRMWARE_VERSION">Get firmware version failed</string>
+    <string name="CHECK_CODE">Get check code failed</string>
+    <string name="READ_METER_NUMBER">Get meter number failed</string>
+    <string name="WRITE_LOCAL_METER_MODE">Write BootLoader mode failed</string>
+    <string name="repeat_failed">Failed retransmission</string>
+    <string name="process_upgrading">Process upgrading</string>
+    <string name="initialization_upgrading">Initialization upgrade</string>
+    <string name="upgrade_type_limit">Please select Local mode to upgrade,the rest of configurations are undeveloped</string>
+</resources>

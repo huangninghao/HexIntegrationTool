@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HexIntegrationTool.iml" filepath="$PROJECT_DIR$/.idea/HexIntegrationTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home/home.iml" filepath="$PROJECT_DIR$/home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readModule/readModule.iml" filepath="$PROJECT_DIR$/readModule/readModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/setModule/setModule.iml" filepath="$PROJECT_DIR$/setModule/setModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upgradeModule/upgradeModule.iml" filepath="$PROJECT_DIR$/upgradeModule/upgradeModule.iml" />
+    </modules>
+  </component>
+</project>

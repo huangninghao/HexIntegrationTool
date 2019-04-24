@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hx.set">
+
+    <application>
+        <activity android:name=".view.activity.MainActivity" />
+        <activity android:name=".view.activity.FunctionActivity" />
+        <activity android:name=".view.activity.RateSetActivity" />
+        <activity android:name=".view.activity.DisplaySetActivity" />
+        <activity android:name=".view.activity.RateTimeActivity" />
+        <activity android:name=".view.activity.ParameterSetActivity" />
+        <activity android:name=".view.activity.ParameterSelectActivity" />
+        <activity android:name=".view.activity.DisplayIntervalActivity" />
+
+        <activity android:name=".view.indonesia.set.HXE320.RateSetActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.DisplaySetActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.RateTimeActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.ParameterSetActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.ParameterSelectActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.DisplayIntervalActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.FunctionActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.RateTimeAddActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.DisplayRotateActivity" />
+        <activity android:name=".view.indonesia.set.HXE320.BillingTimeActivity" />
+
+        <activity android:name=".view.bangladesh.set.HXE310_KP.FeaturesActivity"/>
+        <activity android:name=".view.bangladesh.set.HXE310_KP.GPRSActivity"/>
+        <activity android:name=".view.bangladesh.set.HXE310_KP.TokenActivity"/>
+        <activity android:name=".view.bangladesh.set.HXE310_KP.TimeSetActivity"/>
+        <activity android:name=".view.bangladesh.set.HXE310_KP.RelayActivity"/>
+    </application>
+
+</manifest>

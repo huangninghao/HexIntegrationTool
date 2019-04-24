@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="communication_agreement">
+        <item>21</item>
+        <item>DLMS</item>
+        <item>645</item>
+
+    </string-array>
+    <string-array name="communication_type">
+        <item>Optical</item>
+        <item>RF</item>
+    </string-array>
+</resources>

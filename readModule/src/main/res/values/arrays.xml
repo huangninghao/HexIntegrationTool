@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--kenya日冻结-->
+    <string-array name="kenya_daily_freeze">
+        <item>energy</item>
+        <item>positiveActiveEnergy</item>
+        <item>positiveReactiveEnergy</item>
+    </string-array>
+    <!--单相日冻结项-->
+    <string-array name="single_daily_freeze">
+        <item>energy</item>
+        <item>prepayment</item>
+        <item>positiveActiveEnergy</item>
+        <item>reverseActiveEnergy</item>
+    </string-array>
+    <!--三相日冻结项-->
+    <string-array name="three_phase_daily_freeze">
+        <item>energy</item>
+        <item>prepayment</item>
+        <item>positiveActiveEnergy</item>
+        <item>reverseActiveEnergy</item>
+        <item>positiveReactiveEnergy</item>
+        <item>reverseReactiveEnergy</item>
+    </string-array>
+    <!--单相月冻结项-->
+    <string-array name="single_monthly_freeze">
+        <item>energy</item>
+        <item>prepayment</item>
+        <item>specialInformation</item>
+        <item>positiveActiveEnergy</item>
+        <item>reverseActiveEnergy</item>
+        <item>consumption</item>
+    </string-array>
+    <!--三相月冻结项-->
+    <string-array name="three_phase_monthly_freeze">
+        <item>energy</item>
+        <item>prepayment</item>
+        <item>specialInformation</item>
+        <item>positiveActiveEnergy</item>
+        <item>reverseActiveEnergy</item>
+        <item>positiveReactiveEnergy</item>
+        <item>reverseReactiveEnergy</item>
+        <item>consumption</item>
+        <item>PFC deduction amount</item>
+    </string-array>
+
+    <string-array name="freeze_type">
+        <item>Freezing electric energy</item>
+        <item>Daily freeze prepaid</item>
+    </string-array>
+    <string-array name="freeze_month_type">
+        <item>Monthly freezing of electric energy</item>
+        <item>Monthly freeze prepaid</item>
+    </string-array>
+    <string-array name="hxe12_dl_month_freeze">
+        <item>Last month active(+) energy</item>
+    </string-array>
+    <string-array name="meterStatusArray">
+        <item>Open cover</item>
+        <item>Opening cover</item>
+        <item>Over voltage L1</item>
+        <item>Over voltage L2</item>
+        <item>Over voltage L3</item>
+
+        <item>Under voltage L1</item>
+        <item>Under voltage L2</item>
+        <item>Under voltage L3</item>
+
+        <item>Reverse phase L1</item>
+        <item>Reverse phase L2</item>
+        <item>Reverse phase L3</item>
+        <item>Bypass</item>
+
+        <item>Three-phase unbalance</item>
+        <item>Overload</item>
+        <item>Strong magnetic field</item>
+        <item>Over current</item>
+    </string-array>
+    <string-array name="profileStatus">
+        <item>Critical Error</item>
+        <item>Clock Invalid</item>
+        <item>Data not Valid </item>
+        <item>Daylight Saving</item>
+        <item>Reserved</item>
+        <item>Clock Adjusted</item>
+        <item>Reserved</item>
+        <item></item>
+    </string-array>
+
+    <!--标准事件-->
+    <string-array name="standardEvents">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Switch to summer</item>
+        <item>Clock adjusted(old date/time)</item>
+        <item>Clock adjusted(new date/time)</item>
+        <item>Clock failure</item>
+        <item>Replace battery</item>
+        <item>Battery undervoltage termination</item>
+        <item> </item>
+        <item>Error register cleared</item>
+        <item>Alarm register cleared</item>
+        <item>Program flash failure</item>
+        <item>Data flash failure</item>
+        <item>Memory hardware failure</item>
+        <item>Abnormal reset</item>
+        <item>Measurement system error</item>
+        <item>Firmware ready for activation</item>
+        <item> Firmware activated</item>
+        <item>Firmware  failure</item>
+        <item> </item>
+        <item> </item>
+        <item>DST enabled</item>
+        <item>DST disabled</item>
+        <item>DataFlash failure</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Install battery</item>
+        <item> Billing</item>
+        <item> Program</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Charge</item>
+        <item> TOU activated</item>
+        <item> Management token</item>
+        <item>CT or PT ratio modified</item>
+        <item> Auxiliary power supply off</item>
+        <item> Auxiliary power supply on</item>
+        <item> TOU modified</item>
+        <item> Read by communication</item>
+        <item> Meter password modified</item>
+        <item> Reset all</item>
+        <item> Load profile cleared</item>
+        <item> All event logs cleared</item>
+        <item> Event status word reset</item>
+        <item> Meter mode switched</item>
+        <item> Calibration</item>
+        <item> </item>
+        <item> Disconnector error</item>
+        <item> Checksum of energy data error</item>
+        <item> Checksum of billing data error</item>
+        <item> Checksum of parameters error</item>
+        <item> Checksum of calibration data error</item>
+        <item> E2PROM error</item>
+        <item> FRAM error</item>
+        <item> External flash error</item>
+        <item> Crystal oscillator error</item>
+        <item> High temperatrue</item>
+        <item> Disconnector restore to normal</item>
+        <item> Communication with IHD abnormal</item>
+        <item>Communication abnormal of module</item>
+        <item>Communication restored of module</item>
+        <item> Tariff index switched  </item>
+        <item> GPRS module login</item>
+        <item> GPRS module error</item>
+        <item> Test mode on</item>
+        <item> Test mode off</item>
+        <item> Objects of readout mode changed</item>
+        <item> Module plug in or plug out</item>
+        <item>Time threshold for overload modified</item>
+        <item> Optical port communication</item>
+        <item> Login</item>
+        <item>Transparent transfer mode on</item>
+        <item>Transparent transfer mode off</item>
+        <item> E2PROM error restored</item>
+        <item> FRAM error restored</item>
+        <item> External Flash hardware error restored </item>
+        <item> metering event </item>
+        <item> temperature over limiter threshold start</item>
+        <item> temperature over limiter threshold end</item>
+        <item> Brazil Tariff Program</item>
+        <item> Brazil General Program</item>
+        <item>GPRS traffic overrun</item>
+        <item> Low available credit</item>
+        <item> Clear energy</item>
+        <item> Communication success</item>
+        <item> Communication failure</item>
+        <item>E side main partition error</item>
+        <item>E side backup partition error</item>
+        <item>E side main and backup partition error</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Prepaid and post-paid mode switch</item>
+        <item> GIS information update</item>
+        <item>RS485 communication</item>
+        <item>Communication abnormal of module </item>
+        <item>Communication restored of module </item>
+        <item> TOU modified</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Standard event log cleared</item>
+    </string-array>
+
+    <!--欺诈事件-->
+    <string-array name="fraudulentEvents">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Terminal cover removed</item>
+        <item> Terminal cover closed</item>
+        <item> Strong DC field detected</item>
+        <item> No strong DC field anymore</item>
+        <item> Main cover removed</item>
+        <item> Main cover closed</item>
+        <item> Association authentication failure(n time failed authentication)</item>
+        <item> Module cover removed</item>
+        <item> Module cover closed</item>
+        <item> Meter box cover removed</item>
+        <item> Meter box cover closed</item>
+        <item> Ground fault start</item>
+        <item> Ground fault end</item>
+        <item> Feed line disconnected</item>
+        <item> Feed line reconnected</item>
+        <item> High temperature of transformor </item>
+        <item> Something is close to meter box</item>
+        <item> Something closed to meter box removed</item>
+        <item> Battery cover removed</item>
+        <item> Battery cover closed</item>
+        <item> The door of distribution room opened</item>
+        <item>The door of distribution room closed</item>
+        <item> Current reversal L1 start</item>
+        <item> Current reversal L1 end</item>
+        <item> Current reversal L2 start</item>
+        <item> Current reversal L2 end</item>
+        <item> Current reversal L3 start</item>
+        <item> Current reversal L3 end</item>
+        <item> Bypass start</item>
+        <item> Bypass end</item>
+        <item> Meter box cover removed abnormally</item>
+        <item> Meter box cover closed abnormally</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Strong DC field detected</item>
+        <item> Ground fault</item>
+        <item> Disconencted but power is detected</item>
+        <item> Recover from disconencted but power is detected</item>
+        <item> </item>
+    </string-array>
+
+    <!--继电器事件-->
+    <string-array name="relayEvent">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Mannual disconnection</item>
+        <item> Manual connection</item>
+        <item> Remote disconnection</item>
+        <item> Remote connection</item>
+        <item> Local disconnection</item>
+        <item> Limiter threshold exceeded</item>
+        <item> Limiter threshold ok</item>
+        <item> Limiter threshold changed</item>
+        <item> Local reconnection</item>
+        <item> Disconnection under test mode</item>
+        <item> Connection under test mode</item>
+        <item> Disconnection cause of power grid event occuring</item>
+        <item> Disconnection cause of low credit</item>
+        <item> Disconnect/Reconnect failure</item>
+        <item> Force reconnection remotely</item>
+        <item> Disconnection cause of low than overdraft</item>
+        <item> Disconnection cause of tamper</item>
+        <item> Connection of contactor 1</item>
+        <item> Disconnection of contactor 1	Disconnec</item>
+        <item> Connection of contactor 2</item>
+        <item> Disconnection of contactor 2	Disconnec</item>
+        <item> Disable of disconnection when limiter threshold exceeded</item>
+        <item> Enable of disconnection when limiter threshold exceeded</item>
+        <item>  Emergency profile activated</item>
+        <item> Disconnection cause of current reversal</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Disconnect the relay</item>
+    </string-array>
+
+    <!--电网事件-->
+    <string-array name="powerGridEvent">
+        <item> </item>
+        <item> Phase failure L1 start</item>
+        <item> Phase failure L1 end</item>
+        <item> Phase failure L2 start</item>
+        <item> Phase failure L2 end</item>
+        <item> Phase failure L3 start</item>
+        <item> Phase failure L3 end</item>
+        <item> Polarity reversal L1 start</item>
+        <item> Polarity reversal L1 end</item>
+        <item> Polarity reversal L2 start</item>
+        <item> Polarity reversal L2 end</item>
+        <item> Polarity reversal L3 start</item>
+        <item> Polarity reversal L3 end</item>
+        <item> Cumulated duration of phase failure L1</item>
+        <item> Cumulated count of phase failure L1</item>
+        <item> Cumulated duration of phase failure L2</item>
+        <item> Cumulated count of phase failure L2</item>
+        <item> Cumulated duration of phase failure L3</item>
+        <item> Cumulated duration of phase failure L3</item>
+        <item> Polarity reversal totally start</item>
+        <item> Polarity reversal totally end</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Power down(short power failure)</item>
+        <item>Power up(short power failure)</item>
+        <item> Missing voltage L1 start</item>
+        <item> Missing voltage L1 end</item>
+        <item> Missing voltage L2 start</item>
+        <item> Missing voltage L2 end</item>
+        <item> Missing voltage L3 start</item>
+        <item> Missing voltage L3 end</item>
+        <item> Voltage unbalance start		</item>
+        <item> Voltage unbalance end		</item>
+        <item> Power unbalance start		</item>
+        <item> Power unbalance end		</item>
+        <item> Low power factor start		</item>
+        <item> Low power factor end		</item>
+        <item> Frequency abnormal start		</item>
+        <item> Frequency abnormal end		</item>
+        <item> Demand over limiter threshold start		</item>
+        <item> Demand over limiter threshold end		</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Bypass start</item>
+        <item> Bypass end</item>
+        <item> Phase sequence reversal start</item>
+        <item> Phase sequence reversal end</item>
+        <item> Power down(long power failure)</item>
+        <item> Power up(long power failure)</item>
+        <item> Current reversal L1 start</item>
+        <item> Current reversal L1 end</item>
+        <item> Current reversal L2 start</item>
+        <item> Current reversal L2 end</item>
+        <item> Current reversal L3 start</item>
+        <item> Current reversal L3 end</item>
+        <item> Missing current start</item>
+        <item> Missing current end</item>
+        <item> Under voltage L1 start</item>
+        <item> Under voltage L1 end</item>
+        <item> Under voltage L2 start</item>
+        <item> Under voltage L2 end</item>
+        <item> Under voltage L3 start</item>
+        <item> Under voltage L3 end</item>
+        <item> </item>
+        <item> Current unbalance end</item>
+        <item> Over voltage L1 start</item>
+        <item> Over voltage L1 end</item>
+        <item> Over voltage L2 start</item>
+        <item> Over voltage L2 end</item>
+        <item> Over voltage L3 start</item>
+        <item> Over voltage L3 end</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Missing neutral start</item>
+        <item> Missing neutral end</item>
+        <item> Bypass</item>
+        <item> Phase sequence reversal</item>
+        <item> Missing current</item>
+        <item> Current unbalance </item>
+        <item> Voltage unbalance </item>
+        <item> </item>
+        <item> Power unbalance</item>
+        <item> Overload</item>
+        <item> Missing neutral</item>
+        <item> Cumulated duration of current reversal L1</item>
+        <item> Cumulated count of current reversal L1</item>
+        <item> Cumulated duration of current reversal L2</item>
+        <item> Cumulated count of current reversal L2</item>
+        <item> Cumulated duration of current reversal L3</item>
+        <item> Cumulated count of current reversal L3</item>
+        <item> Cumulated duration of  under voltage L1</item>
+        <item> Cumulated count of  under voltage L1</item>
+        <item> Cumulated duration of  under voltage L2</item>
+        <item> Cumulated count of  under voltage L2</item>
+        <item> Cumulated duration of  under voltage L3</item>
+        <item> Cumulated count of  under voltage L3</item>
+        <item> Cumulated duration of  over voltage L1</item>
+        <item> Cumulated count of  over voltage L1</item>
+        <item> Cumulated duration of  over voltage L2</item>
+        <item> Cumulated count of  over voltage L2</item>
+        <item> Cumulated duration of  over voltage L3</item>
+        <item> Cumulated count of  over voltage L3</item>
+        <item> Under voltage L1&amp;L2 start</item>
+        <item> Under voltage L1&amp;L2 end</item>
+        <item> Cumulated duration of Under voltage L1&amp;L2</item>
+        <item> Cumulated count of Under voltage L1&amp;L2</item>
+        <item> Under voltage L1&amp;L3 start</item>
+        <item> Under voltage L1&amp;L3 end</item>
+        <item> Cumulated duration of Under voltage L1&amp;L3</item>
+        <item> Cumulated count of Under voltage L1&amp;L3</item>
+        <item> Under voltage L2&amp;L3 start</item>
+        <item> Under voltage L2&amp;L3 end</item>
+        <item> Cumulated duration of Under voltage L2&amp;L3</item>
+        <item> Cumulated count of Under voltage L2&amp;L3</item>
+        <item> Under voltage L1&amp;L2&amp;L3 start</item>
+        <item> Under voltage L1&amp;L2&amp;L3 end</item>
+        <item> Cumulated duration of Under voltage L1&amp;L2&amp;L3</item>
+        <item> Cumulated count of Under voltage L1&amp;L2&amp;L3</item>
+        <item> Current unbalance start</item>
+        <item> Over current L1 start</item>
+        <item> Over current L1 end</item>
+        <item> Over current L2 start</item>
+        <item> Over current L2 end</item>
+        <item> Over current L3 start</item>
+        <item> Over current L3 end</item>
+        <item> Overload start</item>
+        <item> Overload end</item>
+        <item> Missing current L1 start</item>
+        <item> Missing current L1 end</item>
+        <item> Missing current L2 start</item>
+        <item> Missing current L2 end</item>
+        <item> Missing current L3 start</item>
+        <item> Missing current L3 end</item>
+        <item> Current unbalance L1 start</item>
+        <item> Current unbalance L1 end</item>
+        <item> </item>
+        <item> Current unbalance L2 start</item>
+        <item> Current unbalance L2 start</item>
+        <item> Current unbalance L3 start</item>
+        <item> Current unbalance L3 start</item>
+        <item>Over neutral current start</item>
+        <item>Over neutral current start</item>
+        <item> Over voltage L1&amp;L2 start</item>
+        <item> Over voltage L1&amp;L2 end</item>
+        <item> Over voltage L1&amp;L3 start</item>
+        <item> Over voltage L1&amp;L3 end</item>
+        <item> Over voltage L2&amp;L3 start</item>
+        <item> Over voltage L2&amp;L3 end</item>
+        <item>Low frequency start</item>
+        <item>Low frequency end</item>
+        <item>High frequency start</item>
+        <item>High frequency end</item>
+        <item>Over Voltage THD L1 start</item>
+        <item>Over Voltage THD L1 end</item>
+        <item>Over Voltage THD L2 start</item>
+        <item>Over Voltage THD L2 end</item>
+        <item>Over Voltage THD L3 start</item>
+        <item>Over Voltage THD L3 end</item>
+        <item> Over current THD L1 Start</item>
+        <item> Over current THD L1 end</item>
+        <item> Over current THD L2 Start</item>
+        <item> Over current THD L2 end</item>
+        <item> Over current THD L3 Start</item>
+        <item> Over current THD L3 end</item>
+        <item> Voltage sag L1 start </item>
+        <item>Voltage sag L1 end</item>
+        <item> Voltage sag L2 start </item>
+        <item>Voltage sag L2 end</item>
+        <item> Voltage sag L3 start </item>
+        <item>Voltage sag L3 end</item>
+        <item> Voltage swell L1 start</item>
+        <item> Voltage swell L1 end</item>
+        <item> Voltage swell L2 start</item>
+        <item> Voltage swell L2 end</item>
+        <item> Voltage swell L3 start</item>
+        <item> Voltage swell L3 end</item>
+        <item> Reactive energy reversal L1 start</item>
+        <item> Reactive energy  L1 end</item>
+        <item> Reactive energy  L2 start</item>
+        <item> Reactive energy  L2 end</item>
+        <item> Reactive energy  L3 start</item>
+        <item> Reactive energy  L3 end</item>
+        <item> entire phase voltage lost start</item>
+        <item> entire phase voltage lost end</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Phase failure L1 start（接SilverSpring模块）</item>
+        <item> Phase failure L1 end（接SilverSpring模块）</item>
+        <item> Phase failure L2 start（接SilverSpring模块）</item>
+        <item> Phase failure L2 end（接SilverSpring模块）</item>
+        <item> Phase failure L3 start（接SilverSpring模块）</item>
+        <item> Phase failure L3 end（接SilverSpring模块）</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Current phase sequence reversal start</item>
+        <item> Current phase sequence reversal end</item>
+        <item>Reverse current</item>
+        <item>Overvoltage</item>
+        <item>Undervoltage</item>
+    </string-array>
+    <!--事件类型-->
+    <string-array name="eventType">
+        <item>Standard event log</item>
+        <item>Fraud in the event log</item>
+        <item>Relay control the event log</item>
+        <item>Grid the event log</item>
+    </string-array>
+
+    <!--预付费信息包-->
+    <!--继电器状态-->
+    <string-array name="relay_status">
+        <item> Disconnected</item>
+        <item> Connected</item>
+    </string-array>
+
+    <!--继电器操作原因-->
+    <string-array name="relay_operation_reason">
+        <item> Normal</item>
+        <item> Out of credit but not use overdraft</item>
+        <item> Out of credit after overdraft</item>
+        <item> Over load</item>
+        <item> Disconnection test</item>
+        <item> Main cover removed </item>
+        <item> Terminal cover removed</item>
+        <item> Remote disconnection</item>
+        <item> Over current</item>
+        <item> Over voltage</item>
+        <item> No charge for long period </item>
+        <item> Default operation after factory</item>
+        <item> Under voltage</item>
+        <item> Current reversal</item>
+        <item> Missing neutral </item>
+        <item> Data error</item>
+        <item> Reconnection test</item>
+        <item> Box cover removed</item>
+        <item> Firmware update</item>
+        <item> Low frequency</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Remote reconnection</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Remote control to never be disconnected mode</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> CIU pull through the watt hour meter.</item>
+        <item> Breakdown of electric meter</item>
+        <item> Error in metering chip</item>
+        <item> Bypass  disconnection</item>
+        <item> Power unbalance</item>
+        <item> Battery cover removed</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> Low voltage of battery</item>
+    </string-array>
+
+    <!--继电器模式-->
+    <string-array name="relay_mode">
+        <item>Power conservation mode</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Normal mode</item>
+    </string-array>
+
+    <!--电表状态-->
+    <string-array name="meter_status">
+        <item> Open meter cover</item>
+        <item> The beginning of the button</item>
+        <item>A phase overpressure</item>
+        <item>B phase overpressure</item>
+        <item>C phase overpressure</item>
+        <item>A phase undervoltage</item>
+        <item>B phase undervoltage</item>
+        <item>C phase undervoltage</item>
+        <item>A phase reverse</item>
+        <item>B phase reverse</item>
+        <item>C phase reverse</item>
+        <item>bypass</item>
+        <item>Three phase imbalance</item>
+        <item>overload</item>
+        <item>Strong magnetic field</item>
+        <item>overcurrent</item>
+        <item>Open table box</item>
+    </string-array>
+
+    <!--电表工作模式-->
+    <string-array name="work_mode">
+        <item> Common meter mode</item>
+        <item> Prepaid charge energy mode</item>
+        <item> Prepaid charge money mode</item>
+        <item></item>
+    </string-array>
+</resources>
